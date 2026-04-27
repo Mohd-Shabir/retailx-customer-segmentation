@@ -4,11 +4,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3+-orange?style=flat-square&logo=scikit-learn)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=flat-square&logo=streamlit)
+![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
 
 ---
----
+
 
 ## Table of Contents
 
@@ -54,8 +54,25 @@ RetailX currently treats all customers the same — sending identical marketing 
 ![Project Architecture](docs/project_architecture.png)
 
 ## Project Structure
-
-
+```
+retailx-customer-segmentation/
+├── dashboard/
+│   ├── retailx_customer_intelligence.pbix           ← Power BI interactive dashboard
+│   ├── retailx_customer_intelligence.pdf
+│   └── retailx_customer_intelligence.png
+├── data/
+│   ├── RetailX_cleaned.xlsx                         ← Raw cleaned input
+│   ├── Retailx_segmented.xlsx                       ← Final segmented dataset
+│   └── palceholder
+├── docs/
+│   ├── marketing_recommendations.pdf                ← Section 6 Marketing Recommendation all in one place
+│   ├── project_architecture.png                     ← Project Architecture 
+│   └── python_naming_conventions.pdf                ← Naming Convention/Rule for Python 
+├── notebooks/
+│   └── customer_segmentation_project.ipynb          ← Main notebook (all 7 sections)
+├── .gitignore
+└── README.md
+```
 ---
 
 ## Methodology
@@ -148,6 +165,20 @@ Clusters were named by inspecting mean/median feature profiles:
 | Loyal High-Income | Retention & Exclusivity | VIP rewards, minimal contact, milestone messages |
 | Engaged Active Shoppers | Upsell & Cross-sell | Bundle deals, multichannel campaigns, tiered loyalty |
 | New Low-Engagement | Activation & Onboarding | Welcome series, first-purchase discounts, single channel |
+
+---
+
+## Dashboard Preview
+
+<img src="docs/retailx_customer_intelligence.png" width="700" alt="RetailX Power BI Dashboard"/>
+
+Built in **Power BI** (`retailx_customer_intelligence.pbix`). The dashboard includes:
+- Segment & Churn Risk slicers — all visuals filter live
+- 5 KPI cards — Total Customers, Avg CLV, High Churn %, Avg Order Freq, Avg Tenure
+- Avg CLV by Segment — horizontal bar chart
+- Segment Distribution — donut chart
+- Churn Risk Breakdown — stacked bar chart
+- Segment Feature Comparison — matrix table with conditional formatting
 
 ---
 
