@@ -65,12 +65,14 @@ retailx-customer-segmentation/
 │   ├── Retailx_segmented.xlsx                       ← Final segmented dataset
 │   └── palceholder
 ├── docs/
+│   ├── dashboard_blueprint.pdf                      ← Dashboard color/font rules
 │   ├── marketing_recommendations.pdf                ← Section 6 Marketing Recommendation all in one place
 │   ├── project_architecture.png                     ← Project Architecture 
-│   └── python_naming_conventions.pdf                ← Naming Convention/Rule for Python 
+│   └── python_naming_conventions.pdf                ← Naming Convention/Rule for Python
 ├── notebooks/
 │   └── customer_segmentation_project.ipynb          ← Main notebook (all 7 sections)
 ├── .gitignore
+├── LICENSE                                          ← Project license
 └── README.md
 ```
 ---
@@ -160,6 +162,8 @@ Clusters were named by inspecting mean/median feature profiles:
 
 ### Marketing Strategies
 
+Read the complete [Marketing Recommendations](docs/marketing_recommendations.pdf)
+
 | Segment | Strategy | Key Actions |
 |---|---|---|
 | Loyal High-Income | Retention & Exclusivity | VIP rewards, minimal contact, milestone messages |
@@ -170,7 +174,7 @@ Clusters were named by inspecting mean/median feature profiles:
 
 ## Dashboard Preview
 
-<img src="dashboard/retailx_customer_intelligence.png" width="700" alt="RetailX Power BI Dashboard"/>
+<img src="dashboard/retailx_customer_intelligence.png" width="850" alt="RetailX Power BI Dashboard"/>
 
 Built in **Power BI** (`retailx_customer_intelligence.pbix`). The dashboard includes:
 - Segment & Churn Risk slicers — all visuals filter live
