@@ -49,3 +49,10 @@ RetailX currently treats all customers the same — sending identical marketing 
 **Goal:** Discover natural customer groups from behavioural data and build a system that assigns new customers to the right segment automatically — enabling targeted, data-driven marketing strategies.
 
 ---
+
+## Project Architecture
+![Project Architecture](docs/project_architecture.png)
+
+
+
+
