@@ -27,7 +27,7 @@
 
 ## Executive Summary
 
-RetailX is a retail company with ~2,000 customers across varying income levels, purchase behaviours, and engagement patterns. This project applies **K-Means clustering** to segment customers into three distinct groups based on seven behavioural features — then trains a **Decision Tree classifier** to automatically assign new customers to a segment at scale.
+RetailX is a retail company with ~1,900 customers across varying income levels, purchase behaviours, and engagement patterns. This project applies **K-Means clustering** to segment customers into three distinct groups based on seven behavioural features — then trains a **Decision Tree classifier** to automatically assign new customers to a segment at scale.
 
 The result is a reusable ML pipeline that outputs:
 - Named customer segments with CLV and churn risk scores
