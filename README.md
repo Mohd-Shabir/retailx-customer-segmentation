@@ -170,7 +170,7 @@ Clusters were named by inspecting mean/median feature profiles:
 
 ## Dashboard Preview
 
-<img src="docs/retailx_customer_intelligence.png" width="700" alt="RetailX Power BI Dashboard"/>
+<img src="dashboard/retailx_customer_intelligence.png" width="700" alt="RetailX Power BI Dashboard"/>
 
 Built in **Power BI** (`retailx_customer_intelligence.pbix`). The dashboard includes:
 - Segment & Churn Risk slicers — all visuals filter live
